@@ -1,0 +1,97 @@
+div{
+background-color: #f3a0b9;
+}
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.sonica.mx/u/fotografias/fotosnoticias/2023/6/7/41166.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fdb4ca;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #input-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f9b9ce;
+    border-radius: 5px;
+  }
+  
+  #submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f5c9dc;
+    color: #0c0c0c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: hsl(332, 88%, 81%);
+  }
+  
+  #chat-container {
+    margin-top: 20px;
+    border-top: 1px solid #f79fc2;
+    padding-top: 10px;
+  }
+  
+  /* Style the chat bubbles */
+  .bubble {
+    background-color: #feb8de;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-bubble {
+    background-color: #0b0b0b;
+    color: #f398b8;
+  }
+    @media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .chat-bubble {
+    max-width: 90%;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+  }
+
+  button#submit-button {
+    padding: 8px 15px;
+  }
+}
+  
